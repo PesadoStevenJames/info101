@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>forms 101</title>
+<meta rel="stylesheet">
+</head>
+<style>
+      .container {
+        margin-left: 150px;
+        margin-top: 100px;
+        gap: 50px;
+        align-items: start;
+        display: grid;
+      }
+      
+      
+      .top-section {
+        display: flex;
+        align-items: start;
+        gap: 20px;
+        grid-column: span 2;
+        font-size: x-large;
+      }
+      
+      
+      .left-form {
+        
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        
+      }
+      
+      
+      .form-section {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        grid-column: span 2;
+      }
+      
+      input[type="text"], input[type="email"] {
+        width:300px;
+        padding: 5px;
+      }
+      
+      .form-group label {
+        width: 120px;
+        
+      }
+      
+      .form-group {
+        display:flex;
+        align-items: center;
+      }
+      
+      
+      .right-form{
+        margin-left: 520px;
+        margin-top: 25px;
+        
+        
+      }
+      
+      .mid-form {
+        margin-left: 520px;
+        margin-top: -300px;
+        font-size: x-large;
+      }
+      
+      
+      
+      
+      
+      
+  </style>
+      
+  <body>
+      <div class="container">
+        <div class="top-section">
+        <img src="images (11).jpeg" alt="girlplanking" width="350" height="200">
+        <p size><em>Planking, in the context of fitness, is an isometric core exercise where you hold your body in a straight, rigid position, resembling a wooden plank, for a sustained period.</em></p><br>
+      </div>
+        
+      <!-- Top Section -->
+      
+      <div class="form-section">
+        <div class="left-form">
+          <div class="form-group">
+            <label for="name"><b>Name:</b></label>
+            <input type="text" id="name">
+          </div>
+          <br>
+          <div class="form-group"><br>
+          <label for="address"><b>Address:</b></label>
+          <input type="text" id="address">
+          </div>
+          <br>
+          <div class="form-group"<br>
+            <label for="email"><b>Email-Ad:</b></label>
+            <input type="email" id="email">
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="contact"><b>Contact Number:</b></label>
+            <input type="text" id="contact">
+            </div>
+            <br>
+            
+            <!-- Right form -->
+            <div class="mid-form">
+              <div>
+                <strong>Gender:</strong><br>
+                <input type="radio" id="male" name="gender">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender">
+                <label for="female">Female</label>
+                <br></div>
+                <br>
+                  <div>
+                    <strong>Hobbies:</strong><br>
+              <input type="checkbox" id="swimming">
+              <label for="swimming">Swimming</label>
+              <br>
+              <input type="checkbox" id="biking">
+              <label for="biking">Biking</label>
+              <br>
+              <input type="checkbox" id="reading">
+              <label for="reading">Reading</label>
+              <br>
+              <input type="checkbox" id="watching">
+              <label for="watching">Watching TV</label>
+              <br>
+              <input type="checkbox" id="playing">
+              <label for="playing">Playing</label>
+              
+              
+            
+            </div>
+            
+            
+          </div>
+          
+            </div>
+           </div>
+  </div>
+  </body>
+  </html>
+  
